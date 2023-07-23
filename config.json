@@ -1,0 +1,16 @@
+{
+    "device": [
+        {
+            "in": "Pocket Control",
+            "out": "Pocket Control"
+        },
+        {
+            "in": "XTouch Mini",
+            "out": "XTouch Mini"
+        }
+    ],
+    "loop": {
+        "in": "VMidi",
+        "out": "Loop Midi 1"
+    }
+}
