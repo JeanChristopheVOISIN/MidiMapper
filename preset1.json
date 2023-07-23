@@ -1,0 +1,21 @@
+{
+    "Aux1": {
+        "command1": {
+            "eventIn": {
+                "type": "cc",// noteon,noteOff,cc,pc,pitch,preset change
+                "number": 9,
+                "channel": 0,
+                "value": 127
+            },
+            "eventOut": [{
+                "type": "cc",// noteon,noteOff,cc,pc,pitch,preset change
+                "number": 9,
+                "channel": 0,
+                "value": 127
+            }]
+        }
+    },
+    "Aux2": {
+
+    }
+}
