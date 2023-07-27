@@ -1,21 +1,73 @@
 {
-    "Aux1": {
-        "command1": {
-            "eventIn": {
-                "type": "cc",// noteon,noteOff,cc,pc,pitch,preset change
-                "number": 9,
+    "device1": [
+        {
+            "ccDeviceIn": { // encoder 1
+                "number": 16,
                 "channel": 0,
-                "value": 127
+                "value": [1,2,3,4,5,6,7,8,9,10],
+                "code": "cc16=${cc16}+${value}"
             },
-            "eventOut": [{
-                "type": "cc",// noteon,noteOff,cc,pc,pitch,preset change
-                "number": 9,
+            "ccDeviceOut": { // led ring 1
+                "number": 48,
                 "channel": 0,
-                "value": 127
-            }]
+                "code": "value=${cc16}*10/127"
+            },
+            "ccLoopIn": { // Track1Aux1
+                "number": 1,
+                "channel": 1,
+                "code": "cc16=${value}"
+            },
+            "ccLoopOut": { // Track1Aux1
+                "number": 1,
+                "channel": 1,
+                "code": "value=${cc16}"
+            }
+        },
+        {
+            "ccDeviceIn": { // encoder 1
+                "number": 16,
+                "channel": 0,
+                "value": [65,66,67,68,69,70,71,72,73,74,75],
+                "code": "cc16=${cc16}-${value}-64"
+            },
+            "ccDeviceOut": { // led ring 1
+                "number": 48,
+                "channel": 0,
+                "code": "value=${cc16}*10/127"
+            },
+            "ccLoopIn": { // Track1Aux1
+                "number": 1,
+                "channel": 1,
+                "code": "cc16=${value}"
+            },
+            "ccLoopOut": { // Track1Aux1
+                "number": 1,
+                "channel": 1,
+                "code": "value=${cc16}"
+            }
+        },
+        {
+            "noteDeviceIn": { // button 1
+                "number": 89,
+                "channel": 0,
+                "value": [127],
+                "code": "n89=${value}-${n89}"
+            },
+            "noteDeviceOut": { // button 1
+                "number": 89,
+                "channel": 0,
+                "code": "value=${n89}"
+            },
+            "ccLoopIn": { // Button9Aux1
+                "number": 19,
+                "channel": 1,
+                "code": "n89=${value}"
+            },
+            "ccLoopOut": { // Button9Aux1 sendMute Track1Aux1
+                "number": 19,
+                "channel": 1,
+                "code": "value=${n89}"
+            }
         }
-    },
-    "Aux2": {
-
-    }
+    ]
 }
