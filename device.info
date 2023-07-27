@@ -1,0 +1,18 @@
+27/07/2023 19:07
+
+MidiInput \\?\SWD#MMDEVAPI#MIDII_4488178A.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b} , loopMIDI Port [1]
+MidiInput \\?\SWD#MMDEVAPI#MIDII_E61DC05C.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b} , X-TOUCH MINI [1]
+MidiInput \\?\SWD#MMDEVAPI#MIDII_44881789.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b} , VMidi [1]
+MidiOutput \\?\SWD#MMDEVAPI#MIDII_44881789.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} , MIDI
+MidiOutput \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} , Synthé. de table de sons Microsoft GS
+MidiOutput \\?\SWD#MMDEVAPI#MIDII_4488178A.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} , MIDI
+MidiOutput \\?\SWD#MMDEVAPI#MIDII_E61DC05C.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} , X-TOUCH MINI [0]
+
+MidiInput \\?\SWD#MMDEVAPI#MIDII_4488178A.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b} , loopMIDI Port [1]
+MidiInput \\?\SWD#MMDEVAPI#MIDII_E61DC05C.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b} , X-TOUCH MINI [1]
+MidiInput \\?\SWD#MMDEVAPI#MIDII_44881789.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b} , VMidi [1]
+MidiOutput \\?\SWD#MMDEVAPI#MIDII_44881789.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} , MIDI
+MidiOutput \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} , Synthé. de table de sons Microsoft GS
+MidiOutput \\?\SWD#MMDEVAPI#MIDII_4488178A.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} , MIDI
+MidiOutput \\?\SWD#MMDEVAPI#MIDII_E61DC05C.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} , X-TOUCH MINI [0]
+
