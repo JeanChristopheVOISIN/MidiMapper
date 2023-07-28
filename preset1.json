@@ -20,18 +20,6 @@
                 }]
             },
             {
-                "ccLoopIn": { // Track1Aux1
-                    "number": 1,
-                    "channel": 1,
-                    "code": "device1_cc1=${value}"
-                },
-                "ccDeviceOut": [{ // led ring 1
-                    "number": 48,
-                    "channel": 0,
-                    "code": "value=${device1_cc1}*10/127"
-                }]
-            },
-            {
                 "ccDeviceIn": { // encoder 1 turn left
                     "number": 16,
                     "channel": 0,
@@ -47,6 +35,18 @@
                     "number": 1,
                     "channel": 1,
                     "code": "value=${device1_cc1}"
+                }]
+            },
+            {
+                "ccLoopIn": { // Track1Aux1
+                    "number": 1,
+                    "channel": 1,
+                    "code": "device1_cc1=${value}"
+                },
+                "ccDeviceOut": [{ // led ring 1
+                    "number": 48,
+                    "channel": 0,
+                    "code": "value=${device1_cc1}*10/127"
                 }]
             },
             {
