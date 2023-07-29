@@ -7,6 +7,7 @@ using System.Text.Json.Nodes;
 using System.Text.Json;
 using System.Linq.Expressions;
 using System.Security.Cryptography.Xml;
+using Microsoft.VisualBasic;
 
 namespace MidiMapper
 {
@@ -23,7 +24,9 @@ namespace MidiMapper
         MidiInPort midiInLoopPort;
         IMidiOutPort midiOutLoopPort;
 
-        private byte device1_cc1, device1_cc19, device1_layerA, device1_layerB;
+        private byte device1_layerA = 127, device1_layerB = 0, device1_button17 = 127, device1_button18 = 0;
+        private byte device1_c1cc19;
+        Dictionary<Tuple<byte, byte>, byte> midiVariable = new Dictionary<Tuple<byte, byte>, byte>();
         public Principal()
         {
             InitializeComponent();
@@ -46,6 +49,22 @@ namespace MidiMapper
         {
             // Find all input MIDI devices
             midiInputDevices = await DeviceInformation.FindAllAsync(MidiInPort.GetDeviceSelector());
+            if (midiInputDevices.Count > 0)
+            {
+                foreach (DeviceInformation deviceInfo in midiInputDevices)
+                {
+                    if (midiInDevicePort == null && "MIDII_E61DC05C".Equals(deviceInfo.Id.Split("#")[2].Split(".")[0]))
+                    {
+                        midiInDevicePort = await MidiInPort.FromIdAsync(deviceInfo.Id);
+                        midiInDevicePort.MessageReceived += MidiInDevicePort_MessageReceived;
+                    }
+                    if (midiInLoopPort == null && "MIDII_44881789".Equals(deviceInfo.Id.Split("#")[2].Split(".")[0]))
+                    {
+                        midiInLoopPort = await MidiInPort.FromIdAsync(deviceInfo.Id);
+                        midiInLoopPort.MessageReceived += MidiInLoopPort_MessageReceived;
+                    }
+                }
+            }
 
             _=this.comboBoxEntreeDevice.Invoke(new MethodInvoker(delegate
             {
@@ -66,11 +85,13 @@ namespace MidiMapper
                     System.Diagnostics.Debug.WriteLine("MidiInput {0} , {1}", deviceInfo.Id, deviceInfo.Name);
                     this.comboBoxEntreeDevice.Items.Add(deviceInfo.Name);
                     this.comboBoxEntreeLoop.Items.Add(deviceInfo.Name);
-                    if (midiInDevicePort == null && "MIDII_E61DC05C".Equals(deviceInfo.Id.Split("#")[2].Split(".")[0]))
+                    if (midiInDevicePort != null && midiInDevicePort.DeviceId == deviceInfo.Id)
                     {
+                        comboBoxEntreeDevice.SelectedIndex = Array.IndexOf(midiInputDevices.ToArray(), deviceInfo);
                     }
-                    if (midiInLoopPort == null && "MIDII_44881789".Equals(deviceInfo.Id.Split("#")[2].Split(".")[0]))
+                    if (midiInLoopPort != null && midiInLoopPort.DeviceId == deviceInfo.Id)
                     {
+                        comboBoxEntreeLoop.SelectedIndex = Array.IndexOf(midiInputDevices.ToArray(), deviceInfo);
                     }
                 }
             }));
@@ -99,8 +120,34 @@ namespace MidiMapper
             // Find all output MIDI devices
             string midiOutportQueryString = MidiOutPort.GetDeviceSelector();
             midiOutputDevices = await DeviceInformation.FindAllAsync(midiOutportQueryString);
+            if (midiOutputDevices.Count > 0)
+            {
+                foreach (DeviceInformation deviceInfo in midiOutputDevices)
+                {
+                    if (midiOutDevicePort == null && "MIDII_E61DC05C".Equals(deviceInfo.Id.Split("#")[2].Split(".")[0]))
+                    {
+                        midiOutDevicePort = await MidiOutPort.FromIdAsync(deviceInfo.Id);
+                        midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 84, this.device1_layerA));
+                        midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 85, this.device1_layerB));
+                        midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 87, this.device1_button17));
+                        midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 88, this.device1_button18));
+                        led(48, 1);
+                        led(49, 1);
+                        led(50, 1);
+                        led(51, 1);
+                        led(52, 1);
+                        led(53, 1);
+                        led(54, 1);
+                        led(55, 1);
+                    }
+                    if (midiOutLoopPort == null && "MIDII_4488178A".Equals(deviceInfo.Id.Split("#")[2].Split(".")[0]))
+                    {
+                        midiOutLoopPort = await MidiOutPort.FromIdAsync(deviceInfo.Id);
+                    }
+                }
+            }
 
-            _=this.comboBoxEntreeDevice.Invoke(new MethodInvoker(delegate
+            _=this.comboBoxSortieDevice.Invoke(new MethodInvoker(delegate
             {
                 this.comboBoxSortieDevice.Items.Clear();
                 this.comboBoxSortieLoop.Items.Clear();
@@ -119,11 +166,13 @@ namespace MidiMapper
                     System.Diagnostics.Debug.WriteLine("MidiOutput {0} , {1}", deviceInfo.Id, deviceInfo.Name);
                     this.comboBoxSortieDevice.Items.Add(getMidiNameFromMidiInputDevices(deviceInfo));
                     this.comboBoxSortieLoop.Items.Add(getMidiNameFromMidiInputDevices(deviceInfo));
-                    if (midiOutDevicePort == null && "MIDII_E61DC05C".Equals(deviceInfo.Id.Split("#")[2].Split(".")[0]))
+                    if (midiOutDevicePort != null && midiOutDevicePort.DeviceId == deviceInfo.Id)
                     {
+                        comboBoxSortieDevice.SelectedIndex = Array.IndexOf(midiOutputDevices.ToArray(), deviceInfo);
                     }
-                    if (midiOutLoopPort == null && "MIDII_4488178A".Equals(deviceInfo.Id.Split("#")[2].Split(".")[0]))
+                    if (midiOutLoopPort != null && midiOutLoopPort.DeviceId == deviceInfo.Id)
                     {
+                        comboBoxSortieLoop.SelectedIndex = Array.IndexOf(midiOutputDevices.ToArray(), deviceInfo);
                     }
                 }
             }));
@@ -233,6 +282,49 @@ namespace MidiMapper
             }
 
         }
+        private void led(byte number, byte value)
+        {
+            midiOutDevicePort.SendMessage(new MidiControlChangeMessage(0, number, (byte)(value*10/127+33)));// led ring 1
+        }
+        private byte add(byte variable, byte value)
+        {
+            return (byte)(((variable + value) > 127) ? 127 : (variable + value));
+        }
+        private byte sub(byte variable, byte value)
+        {
+            return (byte)(((variable - (value - 64)) < 0) ? 0 : (variable - (value - 64)));
+        }
+        private byte getStoreMidi(byte channel, byte number)
+        {
+            return (midiVariable.ContainsKey(new Tuple<byte,byte>(channel,number))) ? midiVariable[new Tuple<byte, byte>(channel, number)] : (byte)0;
+        }
+        private void storeMidi(byte channel, byte number, byte value)
+        {
+            if(midiVariable.ContainsKey(new Tuple<byte, byte>(channel, number)))
+            {
+                midiVariable[new Tuple<byte, byte>(channel, number)] = value;
+            } else
+            {
+                midiVariable.Add(new Tuple<byte, byte>(channel, number), value);
+            }
+        }
+        private void rotary(byte chanSend, byte ccSend, byte value)
+        {
+            if (value >= 1 && value <= 10)
+            {
+                storeMidi(chanSend, ccSend, add(getStoreMidi(chanSend, ccSend), value));
+            }
+            if (value >= 65 && value <= 75)
+            {
+                storeMidi(chanSend, ccSend, sub(getStoreMidi(chanSend, ccSend), value));
+            }
+            midiOutLoopPort.SendMessage(new MidiControlChangeMessage(chanSend, ccSend, getStoreMidi(chanSend, ccSend)));
+        }
+        private void rotary(byte chanSend, byte ccSend, byte value, byte numLed)
+        {
+            rotary(chanSend, ccSend, value);
+            led(numLed, getStoreMidi(chanSend, ccSend));
+        }
         private void readMidiMessage(MidiInPort sender, IMidiMessage receivedMidiMessage)
         {
             if (sender == midiInDevicePort)
@@ -247,17 +339,172 @@ namespace MidiMapper
                     byte channel = ((MidiControlChangeMessage)receivedMidiMessage).Channel;
                     byte number = ((MidiControlChangeMessage)receivedMidiMessage).Controller;
                     byte value = ((MidiControlChangeMessage)receivedMidiMessage).ControlValue;
-                    if (channel == 0 && number == 16 && value >= 1 && value <= 10)
+                    if (channel == 0 && number == 16)
                     {
-                        this.device1_cc1 = (byte)(((this.device1_cc1 + value) > 127) ? 127 : (this.device1_cc1 + value));
-                        midiOutDevicePort.SendMessage(new MidiControlChangeMessage(0, 48, (byte)(this.device1_cc1*10/127+33)));// led ring 1
-                        midiOutLoopPort.SendMessage(new MidiControlChangeMessage(1, 1, this.device1_cc1));// Track1Aux1
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 1, value, 48);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 11, value, 48);
+                        }
+
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 1, value, 48);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 11, value, 48);
+                        }
                     }
-                    if (channel == 0 && number == 16 && value >= 65 && value <= 75)
+
+                    if (channel == 0 && number == 17)
                     {
-                        this.device1_cc1 = (byte)(((this.device1_cc1 - (value - 64)) < 0) ? 0 : (this.device1_cc1 - (value - 64)));
-                        midiOutDevicePort.SendMessage(new MidiControlChangeMessage(0, 48, (byte)(this.device1_cc1*10/127+33)));// led ring 1
-                        midiOutLoopPort.SendMessage(new MidiControlChangeMessage(1, 1, this.device1_cc1));// Track1Aux1
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 2, value, 49);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 12, value, 49);
+                        }
+
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 2, value, 49);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 12, value, 49);
+                        }
+                    }
+
+                    if (channel == 0 && number == 18)
+                    {
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 3, value, 50);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 13, value, 50);
+                        }
+
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 3, value, 50);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 13, value, 50);
+                        }
+                    }
+
+                    if (channel == 0 && number == 19)
+                    {
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 4, value, 51);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 14, value, 51);
+                        }
+
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 4, value, 51);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 14, value, 51);
+                        }
+                    }
+
+                    if (channel == 0 && number == 20)
+                    {
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 5, value, 52);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 15, value, 52);
+                        }
+
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 5, value, 52);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 15, value, 52);
+                        }
+                    }
+
+                    if (channel == 0 && number == 21)
+                    {
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 6, value, 53);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 16, value, 53);
+                        }
+
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 6, value, 53);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 16, value, 53);
+                        }
+                    }
+
+                    if (channel == 0 && number == 22)
+                    {
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 7, value, 54);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 17, value, 54);
+                        }
+
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 7, value, 54);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 17, value, 54);
+                        }
+                    }
+
+                    if (channel == 0 && number == 23)
+                    {
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 8, value, 55);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button17 == 127)
+                        {
+                            rotary(1, 18, value, 55);
+                        }
+
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 8, value, 55);
+                        }
+                        if (this.device1_layerA == 0  && this.device1_layerB == 127 && this.device1_button18 == 127)
+                        {
+                            rotary(2, 18, value, 55);
+                        }
                     }
                 }
                 if (receivedMidiMessage.Type == MidiMessageType.NoteOn)
@@ -270,25 +517,171 @@ namespace MidiMapper
                     byte channel = ((MidiNoteOnMessage)receivedMidiMessage).Channel;
                     byte number = ((MidiNoteOnMessage)receivedMidiMessage).Note;
                     byte value = ((MidiNoteOnMessage)receivedMidiMessage).Velocity;
+                    // Sélection Button 9
                     if (channel == 0 && number == 89 && value == 127)
                     {
-                        this.device1_cc19 = (byte)(value - this.device1_cc19);
-                        midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 89, this.device1_cc19)); // button 1
-                        midiOutLoopPort.SendMessage(new MidiControlChangeMessage(1, 19, this.device1_cc19));// Button9Aux1 sendMute Track1Aux1
+                        this.device1_c1cc19 = (byte)(value - this.device1_c1cc19);
+                        midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 89, this.device1_c1cc19)); // button 1
+                        midiOutLoopPort.SendMessage(new MidiControlChangeMessage(1, 19, this.device1_c1cc19));// Button9Aux1 sendMute Track1Aux1
                     }
 
-                    // S�lection Layer A
+                    // Sélection Button 17
+                    if (channel == 0 && number == 87 && value == 127)
+                    {
+                        this.device1_button17 = value;
+                        this.device1_button18 = 0;
+                        midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 87, this.device1_button17));
+                        midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 88, this.device1_button18));
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0)
+                        {
+                            led(48, getStoreMidi(1, 1));
+                            led(49, getStoreMidi(1, 2));
+                            led(50, getStoreMidi(1, 3));
+                            led(51, getStoreMidi(1, 4));
+                            led(52, getStoreMidi(1, 5));
+                            led(53, getStoreMidi(1, 6));
+                            led(54, getStoreMidi(1, 7));
+                            led(55, getStoreMidi(1, 8));
+                        }
+                        if (this.device1_layerA == 0 && this.device1_layerB == 127)
+                        {
+                            led(48, getStoreMidi(1, 11));
+                            led(49, getStoreMidi(1, 12));
+                            led(50, getStoreMidi(1, 13));
+                            led(51, getStoreMidi(1, 14));
+                            led(52, getStoreMidi(1, 15));
+                            led(53, getStoreMidi(1, 16));
+                            led(54, getStoreMidi(1, 17));
+                            led(55, getStoreMidi(1, 18));
+                        }
+                    }
+                    // Sélection Button 18
+                    if (channel == 0 && number == 88 && value == 127)
+                    {
+                        this.device1_button17 = 0;
+                        this.device1_button18 = value;
+                        midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 87, this.device1_button17));
+                        midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 88, this.device1_button18));
+                        if (this.device1_layerA == 127 && this.device1_layerB == 0)
+                        {
+                            led(48, getStoreMidi(2, 1));
+                            led(49, getStoreMidi(2, 2));
+                            led(50, getStoreMidi(2, 3));
+                            led(51, getStoreMidi(2, 4));
+                            led(52, getStoreMidi(2, 5));
+                            led(53, getStoreMidi(2, 6));
+                            led(54, getStoreMidi(2, 7));
+                            led(55, getStoreMidi(2, 8));
+                        }
+                        if (this.device1_layerA == 0 && this.device1_layerB == 127)
+                        {
+                            led(48, getStoreMidi(2, 11));
+                            led(49, getStoreMidi(2, 12));
+                            led(50, getStoreMidi(2, 13));
+                            led(51, getStoreMidi(2, 14));
+                            led(52, getStoreMidi(2, 15));
+                            led(53, getStoreMidi(2, 16));
+                            led(54, getStoreMidi(2, 17));
+                            led(55, getStoreMidi(2, 18));
+                        }
+                    }
+
+                    // Sélection Layer A
                     if (channel == 0 && number == 84 && value == 127)
                     {
-                        this.device1_layerA = (byte)(value - this.device1_layerA);
-                        midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 84, this.device1_layerA));
+                        if(this.device1_layerA == 0 || this.device1_layerA == 127 && this.device1_layerB == 127)
+                        {
+                            this.device1_layerA = value;
+                            this.device1_layerB = 0;
+                            midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 84, this.device1_layerA));
+                            midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 85, this.device1_layerB));
+                            if (this.device1_button17 == 127)
+                            {
+                                led(48, getStoreMidi(1, 1));
+                                led(49, getStoreMidi(1, 2));
+                                led(50, getStoreMidi(1, 3));
+                                led(51, getStoreMidi(1, 4));
+                                led(52, getStoreMidi(1, 5));
+                                led(53, getStoreMidi(1, 6));
+                                led(54, getStoreMidi(1, 7));
+                                led(55, getStoreMidi(1, 8));
+                            }
+                            if (this.device1_button18 == 127)
+                            {
+                                led(48, getStoreMidi(2, 1));
+                                led(49, getStoreMidi(2, 2));
+                                led(50, getStoreMidi(2, 3));
+                                led(51, getStoreMidi(2, 4));
+                                led(52, getStoreMidi(2, 5));
+                                led(53, getStoreMidi(2, 6));
+                                led(54, getStoreMidi(2, 7));
+                                led(55, getStoreMidi(2, 8));
+                            }
+                        }
+                        else
+                        {
+                            this.device1_layerA = value;
+                            this.device1_layerB = value;
+                            midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 84, 1));
+                            midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 85, 1));
+                            led(48, 0);
+                            led(49, 0);
+                            led(50, 0);
+                            led(51, 0);
+                            led(52, 0);
+                            led(53, 0);
+                            led(54, 0);
+                            led(55, 0);
+                        }
                     }
 
-                    // S�lection Layer B
+                    // Sélection Layer B
                     if (channel == 0 && number == 85 && value == 127)
                     {
-                        this.device1_layerB = (byte)(value - this.device1_layerB);
-                        midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 85, this.device1_layerB)); 
+                        if (this.device1_layerB == 0 || this.device1_layerA == 127 && this.device1_layerB == 127)
+                        {
+                            this.device1_layerB = value;
+                            this.device1_layerA = 0;
+                            midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 84, this.device1_layerA));
+                            midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 85, this.device1_layerB));
+                            if (this.device1_button17 == 127)
+                            {
+                                led(48, getStoreMidi(1, 11));
+                                led(49, getStoreMidi(1, 12));
+                                led(50, getStoreMidi(1, 13));
+                                led(51, getStoreMidi(1, 14));
+                                led(52, getStoreMidi(1, 15));
+                                led(53, getStoreMidi(1, 16));
+                                led(54, getStoreMidi(1, 17));
+                                led(55, getStoreMidi(1, 18));
+                            }
+                            if (this.device1_button18 == 127)
+                            {
+                                led(48, getStoreMidi(2, 11));
+                                led(49, getStoreMidi(2, 12));
+                                led(50, getStoreMidi(2, 13));
+                                led(51, getStoreMidi(2, 14));
+                                led(52, getStoreMidi(2, 15));
+                                led(53, getStoreMidi(2, 16));
+                                led(54, getStoreMidi(2, 17));
+                                led(55, getStoreMidi(2, 18));
+                            }
+                        }
+                        else
+                        {
+                            this.device1_layerA = value;
+                            this.device1_layerB = value;
+                            midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 84, 1));
+                            midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 85, 1));
+                            led(48, 0);
+                            led(49, 0);
+                            led(50, 0);
+                            led(51, 0);
+                            led(52, 0);
+                            led(53, 0);
+                            led(54, 0);
+                            led(55, 0);
+                        }
                     }
                 }
             }
@@ -304,15 +697,40 @@ namespace MidiMapper
                     byte channel = ((MidiControlChangeMessage)receivedMidiMessage).Channel;
                     byte number = ((MidiControlChangeMessage)receivedMidiMessage).Controller;
                     byte value = ((MidiControlChangeMessage)receivedMidiMessage).ControlValue;
-                    if (channel == 1 && number == 1)
+                    var listChannel = new List<byte> { 1, 2 };
+                    if (listChannel.Contains(channel))
                     {
-                        this.device1_cc1 = value;
-                        midiOutDevicePort.SendMessage(new MidiControlChangeMessage(0, 48, (byte)(device1_cc1*10/127+33)));// led ring 1
+                        var listNumber = new List<byte> { 1, 2, 3, 4, 5, 6, 7, 8 };
+                        if (listNumber.Contains(number))
+                        {
+                            storeMidi(channel, number, value);
+                            if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button17 == 127 && channel == 1)
+                            {
+                                led((byte)(47 + number), getStoreMidi(channel, number));
+                            }
+                            if (this.device1_layerA == 127 && this.device1_layerB == 0 && this.device1_button18 == 127 && channel == 2)
+                            {
+                                led((byte)(47 + number), getStoreMidi(channel, number));
+                            }
+                        }
+                        listNumber = new List<byte> { 11, 12, 13, 14, 15, 16, 17, 18 };
+                        if (listNumber.Contains(number))
+                        {
+                            storeMidi(channel, number, value);
+                            if (this.device1_layerA == 0 && this.device1_layerB == 127 && this.device1_button17 == 127 && channel == 1)
+                            {
+                                led((byte)(37 + number), getStoreMidi(channel, number));
+                            }
+                            if (this.device1_layerA == 0 && this.device1_layerB == 127 && this.device1_button18 == 127 && channel == 2)
+                            {
+                                led((byte)(37 + number), getStoreMidi(channel, number));
+                            }
+                        }
                     }
                     if (channel == 1 && number == 19)
                     {
-                        this.device1_cc19 = value;
-                        midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 89, this.device1_cc19)); // button 1
+                        this.device1_c1cc19 = value;
+                        midiOutDevicePort.SendMessage(new MidiNoteOnMessage(0, 89, this.device1_c1cc19)); // button 1
                     }
                 }
             }
