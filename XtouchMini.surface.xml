@@ -77,8 +77,64 @@
 		<Control name="Button23bAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#41"/> </Control>
 		<Control name="Button24bAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#42"/> </Control>
 
+		<Control name="Track1cAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#43"/> </Control>
+		<Control name="Track2cAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#44"/> </Control>
+		<Control name="Track3cAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#45"/> </Control>
+		<Control name="Track4cAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#46"/> </Control>
+		<Control name="Track5cAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#47"/> </Control>
+		<Control name="Track6cAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#48"/> </Control>
+		<Control name="Track7cAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#49"/> </Control>
+		<Control name="Track8cAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#4A"/> </Control>
+
+		<Control name="Button1cAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#4B"/> </Control>
+		<Control name="Button2cAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#4C"/> </Control>
+		<Control name="Button3cAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#4D"/> </Control>
+		<Control name="Button4cAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#4E"/> </Control>
+		<Control name="Button5cAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#4F"/> </Control>
+		<Control name="Button6cAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#50"/> </Control>
+		<Control name="Button7cAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#51"/> </Control>
+		<Control name="Button8cAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#52"/> </Control>
+
+		<Control name="Button9cAux1" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="1" status="#B0" address="#53"/> </Control>
+		<Control name="Button10cAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#54"/> </Control>
+		<Control name="Button11cAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#55"/> </Control>
+		<Control name="Button12cAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#56"/> </Control>
+		<Control name="Button13cAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#57"/> </Control>
+		<Control name="Button14cAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#58"/> </Control>
+		<Control name="Button15cAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#59"/> </Control>
+		<Control name="Button16cAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#5A"/> </Control>
+
+		<Control name="Track1dAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#5B"/> </Control>
+		<Control name="Track2dAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#5C"/> </Control>
+		<Control name="Track3dAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#5D"/> </Control>
+		<Control name="Track4dAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#5E"/> </Control>
+		<Control name="Track5dAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#5F"/> </Control>
+		<Control name="Track6dAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#60"/> </Control>
+		<Control name="Track7dAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#61"/> </Control>
+		<Control name="Track8dAux1" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#62"/> </Control>
+
+		<Control name="Button1dAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#63"/> </Control>
+		<Control name="Button2dAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#64"/> </Control>
+		<Control name="Button3dAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#65"/> </Control>
+		<Control name="Button4dAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#66"/> </Control>
+		<Control name="Button5dAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#67"/> </Control>
+		<Control name="Button6dAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#68"/> </Control>
+		<Control name="Button7dAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#69"/> </Control>
+		<Control name="Button8dAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#6A"/> </Control>
+
+		<Control name="Button9dAux1" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="1" status="#B0" address="#6B"/> </Control>
+		<Control name="Button10dAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#6C"/> </Control>
+		<Control name="Button11dAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#6D"/> </Control>
+		<Control name="Button12dAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#6E"/> </Control>
+		<Control name="Button13dAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#6F"/> </Control>
+		<Control name="Button14dAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#70"/> </Control>
+		<Control name="Button15dAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#71"/> </Control>
+		<Control name="Button16dAux1" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#72"/> </Control>
+
 		<Control name="Volume1Aux1" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#09"/> </Control>
 		<Control name="Volume1bAux1" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#0A"/> </Control>
+		<Control name="Volume1cAux1" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#73"/> </Control>
+		<Control name="Volume1dAux1" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="1" status="#B0" address="#74"/> </Control>
 
 
 		<Control name="Track1Aux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#01"/> </Control>
@@ -148,13 +204,69 @@
 		<Control name="Button18bAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#3C"/> </Control>
 		<Control name="Button19bAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#3D"/> </Control>
 		<Control name="Button20bAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#3E"/> </Control>
-		<Control name="Button21bAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#3F"/> </Control>
+		<Control name="Button21bAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage chanTrack8cAux2Aux1nel="2" status="#B0" address="#3F"/> </Control>
 		<Control name="Button22bAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#40"/> </Control>
 		<Control name="Button23bAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#41"/> </Control>
 		<Control name="Button24bAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#42"/> </Control>
 
+		<Control name="Track1cAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#43"/> </Control>
+		<Control name="Track2cAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#44"/> </Control>
+		<Control name="Track3cAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#45"/> </Control>
+		<Control name="Track4cAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#46"/> </Control>
+		<Control name="Track5cAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#47"/> </Control>
+		<Control name="Track6cAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#48"/> </Control>
+		<Control name="Track7cAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#49"/> </Control>
+		<Control name="Track8cAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#4A"/> </Control>
+
+		<Control name="Button1cAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#4B"/> </Control>
+		<Control name="Button2cAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#4C"/> </Control>
+		<Control name="Button3cAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#4D"/> </Control>
+		<Control name="Button4cAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#4E"/> </Control>
+		<Control name="Button5cAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#4F"/> </Control>
+		<Control name="Button6cAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#50"/> </Control>
+		<Control name="Button7cAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#51"/> </Control>
+		<Control name="Button8cAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#52"/> </Control>
+
+		<Control name="Button9cAux2" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="2" status="#B0" address="#53"/> </Control>
+		<Control name="Button10cAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#54"/> </Control>
+		<Control name="Button11cAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#55"/> </Control>
+		<Control name="Button12cAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#56"/> </Control>
+		<Control name="Button13cAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#57"/> </Control>
+		<Control name="Button14cAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#58"/> </Control>
+		<Control name="Button15cAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#59"/> </Control>
+		<Control name="Button16cAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#5A"/> </Control>
+
+		<Control name="Track1dAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#5B"/> </Control>
+		<Control name="Track2dAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#5C"/> </Control>
+		<Control name="Track3dAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#5D"/> </Control>
+		<Control name="Track4dAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#5E"/> </Control>
+		<Control name="Track5dAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#5F"/> </Control>
+		<Control name="Track6dAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#60"/> </Control>
+		<Control name="Track7dAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#61"/> </Control>
+		<Control name="Track8dAux2" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#62"/> </Control>
+
+		<Control name="Button1dAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#63"/> </Control>
+		<Control name="Button2dAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#64"/> </Control>
+		<Control name="Button3dAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#65"/> </Control>
+		<Control name="Button4dAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#66"/> </Control>
+		<Control name="Button5dAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#67"/> </Control>
+		<Control name="Button6dAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#68"/> </Control>
+		<Control name="Button7dAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#69"/> </Control>
+		<Control name="Button8dAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#6A"/> </Control>
+
+		<Control name="Button9dAux2" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="2" status="#B0" address="#6B"/> </Control>
+		<Control name="Button10dAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#6C"/> </Control>
+		<Control name="Button11dAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#6D"/> </Control>
+		<Control name="Button12dAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#6E"/> </Control>
+		<Control name="Button13dAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#6F"/> </Control>
+		<Control name="Button14dAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#70"/> </Control>
+		<Control name="Button15dAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#71"/> </Control>
+		<Control name="Button16dAux2" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#72"/> </Control>
+
 		<Control name="Volume1Aux2" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#09"/> </Control>
 		<Control name="Volume1bAux2" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#0A"/> </Control>
+		<Control name="Volume1cAux2" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#73"/> </Control>
+		<Control name="Volume1dAux2" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="2" status="#B0" address="#74"/> </Control>
 
 
 		<Control name="Track1Aux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#01"/> </Control>
@@ -229,9 +341,65 @@
 		<Control name="Button23bAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#41"/> </Control>
 		<Control name="Button24bAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#42"/> </Control>
 
+		<Control name="Track1cAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#43"/> </Control>
+		<Control name="Track2cAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#44"/> </Control>
+		<Control name="Track3cAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#45"/> </Control>
+		<Control name="Track4cAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#46"/> </Control>
+		<Control name="Track5cAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#47"/> </Control>
+		<Control name="Track6cAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#48"/> </Control>
+		<Control name="Track7cAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#49"/> </Control>
+		<Control name="Track8cAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#4A"/> </Control>
+
+		<Control name="Button1cAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#4B"/> </Control>
+		<Control name="Button2cAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#4C"/> </Control>
+		<Control name="Button3cAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#4D"/> </Control>
+		<Control name="Button4cAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#4E"/> </Control>
+		<Control name="Button5cAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#4F"/> </Control>
+		<Control name="Button6cAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#50"/> </Control>
+		<Control name="Button7cAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#51"/> </Control>
+		<Control name="Button8cAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#52"/> </Control>
+
+		<Control name="Button9cAux3" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="3" status="#B0" address="#53"/> </Control>
+		<Control name="Button10cAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#54"/> </Control>
+		<Control name="Button11cAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#55"/> </Control>
+		<Control name="Button12cAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#56"/> </Control>
+		<Control name="Button13cAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#57"/> </Control>
+		<Control name="Button14cAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#58"/> </Control>
+		<Control name="Button15cAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#59"/> </Control>
+		<Control name="Button16cAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#5A"/> </Control>
+
+		<Control name="Track1dAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#5B"/> </Control>
+		<Control name="Track2dAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#5C"/> </Control>
+		<Control name="Track3dAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#5D"/> </Control>
+		<Control name="Track4dAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#5E"/> </Control>
+		<Control name="Track5dAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#5F"/> </Control>
+		<Control name="Track6dAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#60"/> </Control>
+		<Control name="Track7dAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#61"/> </Control>
+		<Control name="Track8dAux3" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#62"/> </Control>
+
+		<Control name="Button1dAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#63"/> </Control>
+		<Control name="Button2dAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#64"/> </Control>
+		<Control name="Button3dAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#65"/> </Control>
+		<Control name="Button4dAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#66"/> </Control>
+		<Control name="Button5dAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#67"/> </Control>
+		<Control name="Button6dAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#68"/> </Control>
+		<Control name="Button7dAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#69"/> </Control>
+		<Control name="Button8dAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#6A"/> </Control>
+
+		<Control name="Button9dAux3" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="3" status="#B0" address="#6B"/> </Control>
+		<Control name="Button10dAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#6C"/> </Control>
+		<Control name="Button11dAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#6D"/> </Control>
+		<Control name="Button12dAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#6E"/> </Control>
+		<Control name="Button13dAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#6F"/> </Control>
+		<Control name="Button14dAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#70"/> </Control>
+		<Control name="Button15dAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#71"/> </Control>
+		<Control name="Button16dAux3" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#72"/> </Control>
+
 		<Control name="Volume1Aux3" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#09"/> </Control>
 		<Control name="Volume1bAux3" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#0A"/> </Control>
-	
+		<Control name="Volume1cAux3" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#73"/> </Control>
+		<Control name="Volume1dAux3" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="3" status="#B0" address="#74"/> </Control>
+
 	
 	
 		<Control name="Track1Aux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#01"/> </Control>
@@ -306,8 +474,64 @@
 		<Control name="Button23bAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#41"/> </Control>
 		<Control name="Button24bAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#42"/> </Control>
 
+		<Control name="Track1cAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#43"/> </Control>
+		<Control name="Track2cAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#44"/> </Control>
+		<Control name="Track3cAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#45"/> </Control>
+		<Control name="Track4cAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#46"/> </Control>
+		<Control name="Track5cAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#47"/> </Control>
+		<Control name="Track6cAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#48"/> </Control>
+		<Control name="Track7cAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#49"/> </Control>
+		<Control name="Track8cAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#4A"/> </Control>
+
+		<Control name="Button1cAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#4B"/> </Control>
+		<Control name="Button2cAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#4C"/> </Control>
+		<Control name="Button3cAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#4D"/> </Control>
+		<Control name="Button4cAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#4E"/> </Control>
+		<Control name="Button5cAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#4F"/> </Control>
+		<Control name="Button6cAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#50"/> </Control>
+		<Control name="Button7cAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#51"/> </Control>
+		<Control name="Button8cAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#52"/> </Control>
+
+		<Control name="Button9cAux4" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="4" status="#B0" address="#53"/> </Control>
+		<Control name="Button10cAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#54"/> </Control>
+		<Control name="Button11cAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#55"/> </Control>
+		<Control name="Button12cAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#56"/> </Control>
+		<Control name="Button13cAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#57"/> </Control>
+		<Control name="Button14cAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#58"/> </Control>
+		<Control name="Button15cAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#59"/> </Control>
+		<Control name="Button16cAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#5A"/> </Control>
+
+		<Control name="Track1dAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#5B"/> </Control>
+		<Control name="Track2dAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#5C"/> </Control>
+		<Control name="Track3dAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#5D"/> </Control>
+		<Control name="Track4dAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#5E"/> </Control>
+		<Control name="Track5dAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#5F"/> </Control>
+		<Control name="Track6dAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#60"/> </Control>
+		<Control name="Track7dAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#61"/> </Control>
+		<Control name="Track8dAux4" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#62"/> </Control>
+
+		<Control name="Button1dAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#63"/> </Control>
+		<Control name="Button2dAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#64"/> </Control>
+		<Control name="Button3dAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#65"/> </Control>
+		<Control name="Button4dAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#66"/> </Control>
+		<Control name="Button5dAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#67"/> </Control>
+		<Control name="Button6dAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#68"/> </Control>
+		<Control name="Button7dAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#69"/> </Control>
+		<Control name="Button8dAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#6A"/> </Control>
+
+		<Control name="Button9dAux4" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="4" status="#B0" address="#6B"/> </Control>
+		<Control name="Button10dAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#6C"/> </Control>
+		<Control name="Button11dAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#6D"/> </Control>
+		<Control name="Button12dAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#6E"/> </Control>
+		<Control name="Button13dAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#6F"/> </Control>
+		<Control name="Button14dAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#70"/> </Control>
+		<Control name="Button15dAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#71"/> </Control>
+		<Control name="Button16dAux4" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#72"/> </Control>
+
 		<Control name="Volume1Aux4" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#09"/> </Control>
 		<Control name="Volume1bAux4" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#0A"/> </Control>
+		<Control name="Volume1cAux4" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#73"/> </Control>
+		<Control name="Volume1dAux4" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="4" status="#B0" address="#74"/> </Control>
 	
 	
 	
@@ -383,9 +607,66 @@
 		<Control name="Button23bAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#41"/> </Control>
 		<Control name="Button24bAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#42"/> </Control>
 
+		<Control name="Track1cAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#43"/> </Control>
+		<Control name="Track2cAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#44"/> </Control>
+		<Control name="Track3cAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#45"/> </Control>
+		<Control name="Track4cAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#46"/> </Control>
+		<Control name="Track5cAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#47"/> </Control>
+		<Control name="Track6cAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#48"/> </Control>
+		<Control name="Track7cAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#49"/> </Control>
+		<Control name="Track8cAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#4A"/> </Control>
+
+		<Control name="Button1cAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#4B"/> </Control>
+		<Control name="Button2cAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#4C"/> </Control>
+		<Control name="Button3cAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#4D"/> </Control>
+		<Control name="Button4cAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#4E"/> </Control>
+		<Control name="Button5cAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#4F"/> </Control>
+		<Control name="Button6cAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#50"/> </Control>
+		<Control name="Button7cAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#51"/> </Control>
+		<Control name="Button8cAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#52"/> </Control>
+
+		<Control name="Button9cAux5" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="5" status="#B0" address="#53"/> </Control>
+		<Control name="Button10cAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#54"/> </Control>
+		<Control name="Button11cAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#55"/> </Control>
+		<Control name="Button12cAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#56"/> </Control>
+		<Control name="Button13cAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#57"/> </Control>
+		<Control name="Button14cAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#58"/> </Control>
+		<Control name="Button15cAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#59"/> </Control>
+		<Control name="Button16cAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#5A"/> </Control>
+
+		<Control name="Track1dAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#5B"/> </Control>
+		<Control name="Track2dAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#5C"/> </Control>
+		<Control name="Track3dAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#5D"/> </Control>
+		<Control name="Track4dAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#5E"/> </Control>
+		<Control name="Track5dAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#5F"/> </Control>
+		<Control name="Track6dAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#60"/> </Control>
+		<Control name="Track7dAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#61"/> </Control>
+		<Control name="Track8dAux5" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#62"/> </Control>
+
+		<Control name="Button1dAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#63"/> </Control>
+		<Control name="Button2dAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#64"/> </Control>
+		<Control name="Button3dAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#65"/> </Control>
+		<Control name="Button4dAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#66"/> </Control>
+		<Control name="Button5dAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#67"/> </Control>
+		<Control name="Button6dAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#68"/> </Control>
+		<Control name="Button7dAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#69"/> </Control>
+		<Control name="Button8dAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#6A"/> </Control>
+
+		<Control name="Button9dAux5" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="5" status="#B0" address="#6B"/> </Control>
+		<Control name="Button10dAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#6C"/> </Control>
+		<Control name="Button11dAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#6D"/> </Control>
+		<Control name="Button12dAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#6E"/> </Control>
+		<Control name="Button13dAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#6F"/> </Control>
+		<Control name="Button14dAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#70"/> </Control>
+		<Control name="Button15dAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#71"/> </Control>
+		<Control name="Button16dAux5" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#72"/> </Control>
+
 		<Control name="Volume1Aux5" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#09"/> </Control>
 		<Control name="Volume1bAux5" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#0A"/> </Control>
-	
+		<Control name="Volume1cAux5" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#73"/> </Control>
+		<Control name="Volume1dAux5" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="5" status="#B0" address="#74"/> </Control>
+
+
 	
 	
 		<Control name="Track1Aux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#01"/> </Control>
@@ -460,8 +741,330 @@
 		<Control name="Button23bAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#41"/> </Control>
 		<Control name="Button24bAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#42"/> </Control>
 
+		<Control name="Track1cAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#43"/> </Control>
+		<Control name="Track2cAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#44"/> </Control>
+		<Control name="Track3cAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#45"/> </Control>
+		<Control name="Track4cAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#46"/> </Control>
+		<Control name="Track5cAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#47"/> </Control>
+		<Control name="Track6cAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#48"/> </Control>
+		<Control name="Track7cAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#49"/> </Control>
+		<Control name="Track8cAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#4A"/> </Control>
+
+		<Control name="Button1cAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#4B"/> </Control>
+		<Control name="Button2cAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#4C"/> </Control>
+		<Control name="Button3cAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#4D"/> </Control>
+		<Control name="Button4cAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#4E"/> </Control>
+		<Control name="Button5cAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#4F"/> </Control>
+		<Control name="Button6cAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#50"/> </Control>
+		<Control name="Button7cAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#51"/> </Control>
+		<Control name="Button8cAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#52"/> </Control>
+
+		<Control name="Button9cAux6" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="6" status="#B0" address="#53"/> </Control>
+		<Control name="Button10cAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#54"/> </Control>
+		<Control name="Button11cAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#55"/> </Control>
+		<Control name="Button12cAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#56"/> </Control>
+		<Control name="Button13cAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#57"/> </Control>
+		<Control name="Button14cAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#58"/> </Control>
+		<Control name="Button15cAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#59"/> </Control>
+		<Control name="Button16cAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#5A"/> </Control>
+
+		<Control name="Track1dAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#5B"/> </Control>
+		<Control name="Track2dAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#5C"/> </Control>
+		<Control name="Track3dAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#5D"/> </Control>
+		<Control name="Track4dAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#5E"/> </Control>
+		<Control name="Track5dAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#5F"/> </Control>
+		<Control name="Track6dAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#60"/> </Control>
+		<Control name="Track7dAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#61"/> </Control>
+		<Control name="Track8dAux6" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#62"/> </Control>
+
+		<Control name="Button1dAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#63"/> </Control>
+		<Control name="Button2dAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#64"/> </Control>
+		<Control name="Button3dAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#65"/> </Control>
+		<Control name="Button4dAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#66"/> </Control>
+		<Control name="Button5dAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#67"/> </Control>
+		<Control name="Button6dAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#68"/> </Control>
+		<Control name="Button7dAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#69"/> </Control>
+		<Control name="Button8dAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#6A"/> </Control>
+
+		<Control name="Button9dAux6" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="6" status="#B0" address="#6B"/> </Control>
+		<Control name="Button10dAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#6C"/> </Control>
+		<Control name="Button11dAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#6D"/> </Control>
+		<Control name="Button12dAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#6E"/> </Control>
+		<Control name="Button13dAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#6F"/> </Control>
+		<Control name="Button14dAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#70"/> </Control>
+		<Control name="Button15dAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#71"/> </Control>
+		<Control name="Button16dAux6" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#72"/> </Control>
+
 		<Control name="Volume1Aux6" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#09"/> </Control>
 		<Control name="Volume1bAux6" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#0A"/> </Control>
+		<Control name="Volume1cAux6" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#73"/> </Control>
+		<Control name="Volume1dAux6" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="6" status="#B0" address="#74"/> </Control>
+	
+	
+	
+		<Control name="Track1Aux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#01"/> </Control>
+		<Control name="Track2Aux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#02"/> </Control>
+		<Control name="Track3Aux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#03"/> </Control>
+		<Control name="Track4Aux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#04"/> </Control>
+		<Control name="Track5Aux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#05"/> </Control>
+		<Control name="Track6Aux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#06"/> </Control>
+		<Control name="Track7Aux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#07"/> </Control>
+		<Control name="Track8Aux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#08"/> </Control>
+
+		<Control name="Button1Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#13"/> </Control>
+		<Control name="Button2Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#14"/> </Control>
+		<Control name="Button3Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#15"/> </Control>
+		<Control name="Button4Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#16"/> </Control>
+		<Control name="Button5Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#17"/> </Control>
+		<Control name="Button6Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#18"/> </Control>
+		<Control name="Button7Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#19"/> </Control>
+		<Control name="Button8Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#1A"/> </Control>
+
+		<Control name="Button9Aux7" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="7" status="#B0" address="#1B"/> </Control>
+		<Control name="Button10Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#1C"/> </Control>
+		<Control name="Button11Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#1D"/> </Control>
+		<Control name="Button12Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#1E"/> </Control>
+		<Control name="Button13Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#1F"/> </Control>
+		<Control name="Button14Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#20"/> </Control>
+		<Control name="Button15Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#21"/> </Control>
+		<Control name="Button16Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#22"/> </Control>
+
+		<Control name="Button17Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#23"/> </Control>
+		<Control name="Button18Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#24"/> </Control>
+		<Control name="Button19Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#25"/> </Control>
+		<Control name="Button20Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#26"/> </Control>
+		<Control name="Button21Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#27"/> </Control>
+		<Control name="Button22Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#28"/> </Control>
+		<Control name="Button23Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#29"/> </Control>
+		<Control name="Button24Aux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#2A"/> </Control>
+
+		<Control name="Track1bAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#0B"/> </Control>
+		<Control name="Track2bAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#0C"/> </Control>
+		<Control name="Track3bAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#0D"/> </Control>
+		<Control name="Track4bAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#0E"/> </Control>
+		<Control name="Track5bAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#0F"/> </Control>
+		<Control name="Track6bAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#10"/> </Control>
+		<Control name="Track7bAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#11"/> </Control>
+		<Control name="Track8bAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#12"/> </Control>
+
+		<Control name="Button1bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#2B"/> </Control>
+		<Control name="Button2bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#2C"/> </Control>
+		<Control name="Button3bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#2D"/> </Control>
+		<Control name="Button4bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#2E"/> </Control>
+		<Control name="Button5bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#2F"/> </Control>
+		<Control name="Button6bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#30"/> </Control>
+		<Control name="Button7bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#31"/> </Control>
+		<Control name="Button8bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#32"/> </Control>
+
+		<Control name="Button9bAux" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="7" status="#B0" address="#33"/> </Control>
+		<Control name="Button10bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#34"/> </Control>
+		<Control name="Button11bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#35"/> </Control>
+		<Control name="Button12bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#36"/> </Control>
+		<Control name="Button13bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#37"/> </Control>
+		<Control name="Button14bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#38"/> </Control>
+		<Control name="Button15bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#39"/> </Control>
+		<Control name="Button16bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#3A"/> </Control>
+
+		<Control name="Button17bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#3B"/> </Control>
+		<Control name="Button18bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#3C"/> </Control>
+		<Control name="Button19bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#3D"/> </Control>
+		<Control name="Button20bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#3E"/> </Control>
+		<Control name="Button21bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#3F"/> </Control>
+		<Control name="Button22bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#40"/> </Control>
+		<Control name="Button23bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#41"/> </Control>
+		<Control name="Button24bAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#42"/> </Control>
+
+		<Control name="Track1cAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#43"/> </Control>
+		<Control name="Track2cAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#44"/> </Control>
+		<Control name="Track3cAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#45"/> </Control>
+		<Control name="Track4cAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#46"/> </Control>
+		<Control name="Track5cAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#47"/> </Control>
+		<Control name="Track6cAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#48"/> </Control>
+		<Control name="Track7cAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#49"/> </Control>
+		<Control name="Track8cAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#4A"/> </Control>
+
+		<Control name="Button1cAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#4B"/> </Control>
+		<Control name="Button2cAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#4C"/> </Control>
+		<Control name="Button3cAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#4D"/> </Control>
+		<Control name="Button4cAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#4E"/> </Control>
+		<Control name="Button5cAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#4F"/> </Control>
+		<Control name="Button6cAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#50"/> </Control>
+		<Control name="Button7cAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#51"/> </Control>
+		<Control name="Button8cAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#52"/> </Control>
+
+		<Control name="Button9cAux7" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="7" status="#B0" address="#53"/> </Control>
+		<Control name="Button10cAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#54"/> </Control>
+		<Control name="Button11cAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#55"/> </Control>
+		<Control name="Button12cAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#56"/> </Control>
+		<Control name="Button13cAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#57"/> </Control>
+		<Control name="Button14cAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#58"/> </Control>
+		<Control name="Button15cAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#59"/> </Control>
+		<Control name="Button16cAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#5A"/> </Control>
+
+		<Control name="Track1dAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#5B"/> </Control>
+		<Control name="Track2dAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#5C"/> </Control>
+		<Control name="Track3dAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#5D"/> </Control>
+		<Control name="Track4dAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#5E"/> </Control>
+		<Control name="Track5dAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#5F"/> </Control>
+		<Control name="Track6dAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#60"/> </Control>
+		<Control name="Track7dAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#61"/> </Control>
+		<Control name="Track8dAux7" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#62"/> </Control>
+
+		<Control name="Button1dAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#63"/> </Control>
+		<Control name="Button2dAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#64"/> </Control>
+		<Control name="Button3dAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#65"/> </Control>
+		<Control name="Button4dAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#66"/> </Control>
+		<Control name="Button5dAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#67"/> </Control>
+		<Control name="Button6dAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#68"/> </Control>
+		<Control name="Button7dAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#69"/> </Control>
+		<Control name="Button8dAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#6A"/> </Control>
+
+		<Control name="Button9dAux7" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="7" status="#B0" address="#6B"/> </Control>
+		<Control name="Button10dAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#6C"/> </Control>
+		<Control name="Button11dAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#6D"/> </Control>
+		<Control name="Button12dAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#6E"/> </Control>
+		<Control name="Button13dAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#6F"/> </Control>
+		<Control name="Button14dAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#70"/> </Control>
+		<Control name="Button15dAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#71"/> </Control>
+		<Control name="Button16dAux7" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#72"/> </Control>
+
+		<Control name="Volume1Aux7" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#09"/> </Control>
+		<Control name="Volume1bAux7" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#0A"/> </Control>
+		<Control name="Volume1cAux7" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#73"/> </Control>
+		<Control name="Volume1dAux7" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="7" status="#B0" address="#74"/> </Control>
+
+	
+	
+		<Control name="Track1Aux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#01"/> </Control>
+		<Control name="Track2Aux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#02"/> </Control>
+		<Control name="Track3Aux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#03"/> </Control>
+		<Control name="Track4Aux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#04"/> </Control>
+		<Control name="Track5Aux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#05"/> </Control>
+		<Control name="Track6Aux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#06"/> </Control>
+		<Control name="Track7Aux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#07"/> </Control>
+		<Control name="Track8Aux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#08"/> </Control>
+
+		<Control name="Button1Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#13"/> </Control>
+		<Control name="Button2Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#14"/> </Control>
+		<Control name="Button3Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#15"/> </Control>
+		<Control name="Button4Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#16"/> </Control>
+		<Control name="Button5Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#17"/> </Control>
+		<Control name="Button6Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#18"/> </Control>
+		<Control name="Button7Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#19"/> </Control>
+		<Control name="Button8Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#1A"/> </Control>
+
+		<Control name="Button9Aux8" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="8" status="#B0" address="#1B"/> </Control>
+		<Control name="Button10Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#1C"/> </Control>
+		<Control name="Button11Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#1D"/> </Control>
+		<Control name="Button12Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#1E"/> </Control>
+		<Control name="Button13Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#1F"/> </Control>
+		<Control name="Button14Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#20"/> </Control>
+		<Control name="Button15Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#21"/> </Control>
+		<Control name="Button16Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#22"/> </Control>
+
+		<Control name="Button17Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#23"/> </Control>
+		<Control name="Button18Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#24"/> </Control>
+		<Control name="Button19Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#25"/> </Control>
+		<Control name="Button20Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#26"/> </Control>
+		<Control name="Button21Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#27"/> </Control>
+		<Control name="Button22Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#28"/> </Control>
+		<Control name="Button23Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#29"/> </Control>
+		<Control name="Button24Aux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#2A"/> </Control>
+
+		<Control name="Track1bAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#0B"/> </Control>
+		<Control name="Track2bAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#0C"/> </Control>
+		<Control name="Track3bAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#0D"/> </Control>
+		<Control name="Track4bAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#0E"/> </Control>
+		<Control name="Track5bAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#0F"/> </Control>
+		<Control name="Track6bAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#10"/> </Control>
+		<Control name="Track7bAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#11"/> </Control>
+		<Control name="Track8bAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#12"/> </Control>
+
+		<Control name="Button1bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#2B"/> </Control>
+		<Control name="Button2bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#2C"/> </Control>
+		<Control name="Button3bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#2D"/> </Control>
+		<Control name="Button4bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#2E"/> </Control>
+		<Control name="Button5bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#2F"/> </Control>
+		<Control name="Button6bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#30"/> </Control>
+		<Control name="Button7bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#31"/> </Control>
+		<Control name="Button8bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#32"/> </Control>
+
+		<Control name="Button9bAux" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="8" status="#B0" address="#33"/> </Control>
+		<Control name="Button10bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#34"/> </Control>
+		<Control name="Button11bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#35"/> </Control>
+		<Control name="Button12bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#36"/> </Control>
+		<Control name="Button13bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#37"/> </Control>
+		<Control name="Button14bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#38"/> </Control>
+		<Control name="Button15bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#39"/> </Control>
+		<Control name="Button16bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#3A"/> </Control>
+
+		<Control name="Button17bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#3B"/> </Control>
+		<Control name="Button18bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#3C"/> </Control>
+		<Control name="Button19bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#3D"/> </Control>
+		<Control name="Button20bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#3E"/> </Control>
+		<Control name="Button21bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#3F"/> </Control>
+		<Control name="Button22bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#40"/> </Control>
+		<Control name="Button23bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#41"/> </Control>
+		<Control name="Button24bAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#42"/> </Control>
+
+		<Control name="Track1cAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#43"/> </Control>
+		<Control name="Track2cAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#44"/> </Control>
+		<Control name="Track3cAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#45"/> </Control>
+		<Control name="Track4cAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#46"/> </Control>
+		<Control name="Track5cAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#47"/> </Control>
+		<Control name="Track6cAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#48"/> </Control>
+		<Control name="Track7cAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#49"/> </Control>
+		<Control name="Track8cAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#4A"/> </Control>
+
+		<Control name="Button1cAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#4B"/> </Control>
+		<Control name="Button2cAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#4C"/> </Control>
+		<Control name="Button3cAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#4D"/> </Control>
+		<Control name="Button4cAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#4E"/> </Control>
+		<Control name="Button5cAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#4F"/> </Control>
+		<Control name="Button6cAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#50"/> </Control>
+		<Control name="Button7cAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#51"/> </Control>
+		<Control name="Button8cAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#52"/> </Control>
+
+		<Control name="Button9cAux8" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="8" status="#B0" address="#53"/> </Control>
+		<Control name="Button10cAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#54"/> </Control>
+		<Control name="Button11cAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#55"/> </Control>
+		<Control name="Button12cAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#56"/> </Control>
+		<Control name="Button13cAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#57"/> </Control>
+		<Control name="Button14cAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#58"/> </Control>
+		<Control name="Button15cAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#59"/> </Control>
+		<Control name="Button16cAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#5A"/> </Control>
+
+		<Control name="Track1dAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#5B"/> </Control>
+		<Control name="Track2dAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#5C"/> </Control>
+		<Control name="Track3dAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#5D"/> </Control>
+		<Control name="Track4dAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#5E"/> </Control>
+		<Control name="Track5dAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#5F"/> </Control>
+		<Control name="Track6dAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#60"/> </Control>
+		<Control name="Track7dAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#61"/> </Control>
+		<Control name="Track8dAux8" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#62"/> </Control>
+
+		<Control name="Button1dAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#63"/> </Control>
+		<Control name="Button2dAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#64"/> </Control>
+		<Control name="Button3dAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#65"/> </Control>
+		<Control name="Button4dAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#66"/> </Control>
+		<Control name="Button5dAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#67"/> </Control>
+		<Control name="Button6dAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#68"/> </Control>
+		<Control name="Button7dAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#69"/> </Control>
+		<Control name="Button8dAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#6A"/> </Control>
+
+		<Control name="Button9dAux8" type="button" options="transmit receive nofeedback public">  <MidiMessage channel="8" status="#B0" address="#6B"/> </Control>
+		<Control name="Button10dAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#6C"/> </Control>
+		<Control name="Button11dAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#6D"/> </Control>
+		<Control name="Button12dAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#6E"/> </Control>
+		<Control name="Button13dAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#6F"/> </Control>
+		<Control name="Button14dAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#70"/> </Control>
+		<Control name="Button15dAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#71"/> </Control>
+		<Control name="Button16dAux8" type="button" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#72"/> </Control>
+
+		<Control name="Volume1Aux8" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#09"/> </Control>
+		<Control name="Volume1bAux8" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#0A"/> </Control>
+		<Control name="Volume1cAux8" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#73"/> </Control>
+		<Control name="Volume1dAux8" type="fader" options="transmit receive nofeedback public"> <MidiMessage channel="8" status="#B0" address="#74"/> </Control>
 	</Controls>
 	
 	<!-- ******************************************************************************************** -->
@@ -469,7 +1072,18 @@
 	<!-- ******************************************************************************************** -->
 
 	<Mappings>
+		<DeviceMapping device="TransportPanel">
 
+			<Command control="Button23bAux8"			command.category="Transport" command.name="Start"/>
+			<Value control="Button23bAux8" param="start"/>
+			<Command control="Button22bAux8"			command.category="Transport" command.name="Stop"/>
+			<Value control="Button22bAux8" param="stop"/>
+			<Command control="Button20bAux8"			command.category="Transport" command.name="Record"/>
+			<Value control="Button20bAux8" param="record"/>
+			<!-- <Command control="Button19bAux8"			command.category="Transport" command.name="Rewind"/>
+			<Command control="Button20bAux8"				command.category="Transport" command.name="Forward"/> -->
+			
+		</DeviceMapping>
 		<DeviceMapping device="MixerConsole" name="MixerMapping">
 			<Bank target="RemoteBank">
 				<Bank target="Sends" name="SendsBankElement">
@@ -479,6 +1093,8 @@
 					<Strip><Value control="Track1Aux4" param="sendlevel"/><Value control="Button9Aux4" param="sendMute"/></Strip>
 					<Strip><Value control="Track1Aux5" param="sendlevel"/><Value control="Button9Aux5" param="sendMute"/></Strip>
 					<Strip><Value control="Track1Aux6" param="sendlevel"/><Value control="Button9Aux6" param="sendMute"/></Strip>
+					<Strip><Value control="Track1Aux7" param="sendlevel"/><Value control="Button9Aux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track1Aux8" param="sendlevel"/><Value control="Button9Aux8" param="sendMute"/></Strip>
 				</Bank>
 				<Bank target="Sends" name="SendsBankElement">
 					<Strip><Value control="Track2Aux1" param="sendlevel"/><Value control="Button10Aux1" param="sendMute"/></Strip>
@@ -487,6 +1103,8 @@
 					<Strip><Value control="Track2Aux4" param="sendlevel"/><Value control="Button10Aux4" param="sendMute"/></Strip>
 					<Strip><Value control="Track2Aux5" param="sendlevel"/><Value control="Button10Aux5" param="sendMute"/></Strip>
 					<Strip><Value control="Track2Aux6" param="sendlevel"/><Value control="Button10Aux5" param="sendMute"/></Strip>
+					<Strip><Value control="Track2Aux7" param="sendlevel"/><Value control="Button10Aux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track2Aux8" param="sendlevel"/><Value control="Button10Aux8" param="sendMute"/></Strip>
 				</Bank>
 				<Bank target="Sends" name="SendsBankElement">
 					<Strip><Value control="Track3Aux1" param="sendlevel"/><Value control="Button11Aux1" param="sendMute"/></Strip>
@@ -495,6 +1113,8 @@
 					<Strip><Value control="Track3Aux4" param="sendlevel"/><Value control="Button11Aux4" param="sendMute"/></Strip>
 					<Strip><Value control="Track3Aux5" param="sendlevel"/><Value control="Button11Aux5" param="sendMute"/></Strip>
 					<Strip><Value control="Track3Aux6" param="sendlevel"/><Value control="Button11Aux6" param="sendMute"/></Strip>
+					<Strip><Value control="Track3Aux7" param="sendlevel"/><Value control="Button110Aux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track3Aux8" param="sendlevel"/><Value control="Button110Aux8" param="sendMute"/></Strip>
 				</Bank>
 				<Bank target="Sends" name="SendsBankElement">
 					<Strip><Value control="Track4Aux1" param="sendlevel"/><Value control="Button12Aux1" param="sendMute"/></Strip>
@@ -503,6 +1123,8 @@
 					<Strip><Value control="Track4Aux4" param="sendlevel"/><Value control="Button12Aux4" param="sendMute"/></Strip>
 					<Strip><Value control="Track4Aux5" param="sendlevel"/><Value control="Button12Aux5" param="sendMute"/></Strip>
 					<Strip><Value control="Track4Aux6" param="sendlevel"/><Value control="Button12Aux6" param="sendMute"/></Strip>
+					<Strip><Value control="Track4Aux7" param="sendlevel"/><Value control="Button12Aux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track4Aux8" param="sendlevel"/><Value control="Button12Aux8" param="sendMute"/></Strip>
 				</Bank>
 				<Bank target="Sends" name="SendsBankElement">
 					<Strip><Value control="Track5Aux1" param="sendlevel"/><Value control="Button13Aux1" param="sendMute"/></Strip>
@@ -511,6 +1133,8 @@
 					<Strip><Value control="Track5Aux4" param="sendlevel"/><Value control="Button13Aux4" param="sendMute"/></Strip>
 					<Strip><Value control="Track5Aux5" param="sendlevel"/><Value control="Button13Aux5" param="sendMute"/></Strip>
 					<Strip><Value control="Track5Aux6" param="sendlevel"/><Value control="Button13Aux6" param="sendMute"/></Strip>
+					<Strip><Value control="Track5Aux7" param="sendlevel"/><Value control="Button13Aux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track5Aux8" param="sendlevel"/><Value control="Button13Aux8" param="sendMute"/></Strip>
 				</Bank>
 				<Bank target="Sends" name="SendsBankElement">
 					<Strip><Value control="Track6Aux1" param="sendlevel"/><Value control="Button14Aux1" param="sendMute"/></Strip>
@@ -519,6 +1143,8 @@
 					<Strip><Value control="Track6Aux4" param="sendlevel"/><Value control="Button14Aux4" param="sendMute"/></Strip>
 					<Strip><Value control="Track6Aux5" param="sendlevel"/><Value control="Button14Aux5" param="sendMute"/></Strip>
 					<Strip><Value control="Track6Aux6" param="sendlevel"/><Value control="Button14Aux6" param="sendMute"/></Strip>
+					<Strip><Value control="Track6Aux7" param="sendlevel"/><Value control="Button14Aux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track6Aux8" param="sendlevel"/><Value control="Button14Aux8" param="sendMute"/></Strip>
 				</Bank>
 				<Bank target="Sends" name="SendsBankElement">
 					<Strip><Value control="Track7Aux1" param="sendlevel"/><Value control="Button15Aux1" param="sendMute"/></Strip>
@@ -527,6 +1153,8 @@
 					<Strip><Value control="Track7Aux4" param="sendlevel"/><Value control="Button15Aux4" param="sendMute"/></Strip>
 					<Strip><Value control="Track7Aux5" param="sendlevel"/><Value control="Button15Aux5" param="sendMute"/></Strip>
 					<Strip><Value control="Track7Aux6" param="sendlevel"/><Value control="Button15Aux6" param="sendMute"/></Strip>
+					<Strip><Value control="Track7Aux7" param="sendlevel"/><Value control="Button15Aux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track7Aux8" param="sendlevel"/><Value control="Button15Aux8" param="sendMute"/></Strip>
 				</Bank>
 				<Bank target="Sends" name="SendsBankElement">
 					<Strip><Value control="Track8Aux1" param="sendlevel"/><Value control="Button16Aux1" param="sendMute"/></Strip>
@@ -535,6 +1163,88 @@
 					<Strip><Value control="Track8Aux4" param="sendlevel"/><Value control="Button16Aux4" param="sendMute"/></Strip>
 					<Strip><Value control="Track8Aux5" param="sendlevel"/><Value control="Button16Aux5" param="sendMute"/></Strip>
 					<Strip><Value control="Track8Aux6" param="sendlevel"/><Value control="Button16Aux6" param="sendMute"/></Strip>
+					<Strip><Value control="Track8Aux7" param="sendlevel"/><Value control="Button16Aux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track8Aux8" param="sendlevel"/><Value control="Button16Aux8" param="sendMute"/></Strip>
+				</Bank>
+				<Bank target="Sends" name="SendsBankElement">
+					<Strip><Value control="Track1bAux1" param="sendlevel"/><Value control="Button9bAux1" param="sendMute"/></Strip>
+					<Strip><Value control="Track1bAux2" param="sendlevel"/><Value control="Button9bAux2" param="sendMute"/></Strip>
+					<Strip><Value control="Track1bAux3" param="sendlevel"/><Value control="Button9bAux3" param="sendMute"/></Strip>
+					<Strip><Value control="Track1bAux4" param="sendlevel"/><Value control="Button9bAux4" param="sendMute"/></Strip>
+					<Strip><Value control="Track1bAux5" param="sendlevel"/><Value control="Button9bAux5" param="sendMute"/></Strip>
+					<Strip><Value control="Track1bAux6" param="sendlevel"/><Value control="Button9bAux6" param="sendMute"/></Strip>
+					<Strip><Value control="Track1bAux7" param="sendlevel"/><Value control="Button9bAux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track1bAux8" param="sendlevel"/><Value control="Button9bAux8" param="sendMute"/></Strip>
+				</Bank>
+				<Bank target="Sends" name="SendsBankElement">
+					<Strip><Value control="Track2bAux1" param="sendlevel"/><Value control="Button10bAux1" param="sendMute"/></Strip>
+					<Strip><Value control="Track2bAux2" param="sendlevel"/><Value control="Button10bAux2" param="sendMute"/></Strip>
+					<Strip><Value control="Track2bAux3" param="sendlevel"/><Value control="Button10bAux3" param="sendMute"/></Strip>
+					<Strip><Value control="Track2bAux4" param="sendlevel"/><Value control="Button10bAux4" param="sendMute"/></Strip>
+					<Strip><Value control="Track2bAux5" param="sendlevel"/><Value control="Button10bAux5" param="sendMute"/></Strip>
+					<Strip><Value control="Track2bAux6" param="sendlevel"/><Value control="Button10bAux6" param="sendMute"/></Strip>
+					<Strip><Value control="Track2bAux7" param="sendlevel"/><Value control="Button10bAux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track2bAux8" param="sendlevel"/><Value control="Button10bAux8" param="sendMute"/></Strip>
+				</Bank>
+				<Bank target="Sends" name="SendsBankElement">
+					<Strip><Value control="Track3bAux1" param="sendlevel"/><Value control="Button11bAux1" param="sendMute"/></Strip>
+					<Strip><Value control="Track3bAux2" param="sendlevel"/><Value control="Button11bAux2" param="sendMute"/></Strip>
+					<Strip><Value control="Track3bAux3" param="sendlevel"/><Value control="Button11bAux3" param="sendMute"/></Strip>
+					<Strip><Value control="Track3bAux4" param="sendlevel"/><Value control="Button11bAux4" param="sendMute"/></Strip>
+					<Strip><Value control="Track3bAux5" param="sendlevel"/><Value control="Button11bAux5" param="sendMute"/></Strip>
+					<Strip><Value control="Track3bAux6" param="sendlevel"/><Value control="Button11bAux6" param="sendMute"/></Strip>
+					<Strip><Value control="Track3bAux7" param="sendlevel"/><Value control="Button11bAux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track3bAux8" param="sendlevel"/><Value control="Button11bAux8" param="sendMute"/></Strip>
+				</Bank>
+				<Bank target="Sends" name="SendsBankElement">
+					<Strip><Value control="Track4bAux1" param="sendlevel"/><Value control="Button12bAux1" param="sendMute"/></Strip>
+					<Strip><Value control="Track4bAux2" param="sendlevel"/><Value control="Button12bAux2" param="sendMute"/></Strip>
+					<Strip><Value control="Track4bAux3" param="sendlevel"/><Value control="Button12bAux3" param="sendMute"/></Strip>
+					<Strip><Value control="Track4bAux4" param="sendlevel"/><Value control="Button12bAux4" param="sendMute"/></Strip>
+					<Strip><Value control="Track4bAux5" param="sendlevel"/><Value control="Button12bAux5" param="sendMute"/></Strip>
+					<Strip><Value control="Track4bAux6" param="sendlevel"/><Value control="Button12bAux6" param="sendMute"/></Strip>
+					<Strip><Value control="Track4bAux7" param="sendlevel"/><Value control="Button12bAux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track4bAux8" param="sendlevel"/><Value control="Button12bAux8" param="sendMute"/></Strip>
+				</Bank>
+				<Bank target="Sends" name="SendsBankElement">
+					<Strip><Value control="Track5bAux1" param="sendlevel"/><Value control="Button13bAux1" param="sendMute"/></Strip>
+					<Strip><Value control="Track5bAux2" param="sendlevel"/><Value control="Button13bAux2" param="sendMute"/></Strip>
+					<Strip><Value control="Track5bAux3" param="sendlevel"/><Value control="Button13bAux3" param="sendMute"/></Strip>
+					<Strip><Value control="Track5bAux4" param="sendlevel"/><Value control="Button13bAux4" param="sendMute"/></Strip>
+					<Strip><Value control="Track5bAux5" param="sendlevel"/><Value control="Button13bAux5" param="sendMute"/></Strip>
+					<Strip><Value control="Track5bAux6" param="sendlevel"/><Value control="Button13bAux6" param="sendMute"/></Strip>
+					<Strip><Value control="Track5bAux7" param="sendlevel"/><Value control="Button13bAux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track5bAux8" param="sendlevel"/><Value control="Button13bAux8" param="sendMute"/></Strip>
+				</Bank>
+				<Bank target="Sends" name="SendsBankElement">
+					<Strip><Value control="Track6bAux1" param="sendlevel"/><Value control="Button14bAux1" param="sendMute"/></Strip>
+					<Strip><Value control="Track6bAux2" param="sendlevel"/><Value control="Button14bAux2" param="sendMute"/></Strip>
+					<Strip><Value control="Track6bAux3" param="sendlevel"/><Value control="Button14bAux3" param="sendMute"/></Strip>
+					<Strip><Value control="Track6bAux4" param="sendlevel"/><Value control="Button14bAux4" param="sendMute"/></Strip>
+					<Strip><Value control="Track6bAux5" param="sendlevel"/><Value control="Button14bAux5" param="sendMute"/></Strip>
+					<Strip><Value control="Track6bAux6" param="sendlevel"/><Value control="Button14bAux6" param="sendMute"/></Strip>
+					<Strip><Value control="Track6bAux7" param="sendlevel"/><Value control="Button14bAux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track6bAux8" param="sendlevel"/><Value control="Button14bAux8" param="sendMute"/></Strip>
+				</Bank>
+				<Bank target="Sends" name="SendsBankElement">
+					<Strip><Value control="Track7bAux1" param="sendlevel"/><Value control="Button15bAux1" param="sendMute"/></Strip>
+					<Strip><Value control="Track7bAux2" param="sendlevel"/><Value control="Button15bAux2" param="sendMute"/></Strip>
+					<Strip><Value control="Track7bAux3" param="sendlevel"/><Value control="Button15bAux3" param="sendMute"/></Strip>
+					<Strip><Value control="Track7bAux4" param="sendlevel"/><Value control="Button15bAux4" param="sendMute"/></Strip>
+					<Strip><Value control="Track7bAux5" param="sendlevel"/><Value control="Button15bAux5" param="sendMute"/></Strip>
+					<Strip><Value control="Track7bAux6" param="sendlevel"/><Value control="Button15bAux6" param="sendMute"/></Strip>
+					<Strip><Value control="Track7bAux7" param="sendlevel"/><Value control="Button15bAux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track7bAux8" param="sendlevel"/><Value control="Button15bAux8" param="sendMute"/></Strip>
+				</Bank>
+				<Bank target="Sends" name="SendsBankElement">
+					<Strip><Value control="Track8bAux1" param="sendlevel"/><Value control="Button16bAux1" param="sendMute"/></Strip>
+					<Strip><Value control="Track8bAux2" param="sendlevel"/><Value control="Button16bAux2" param="sendMute"/></Strip>
+					<Strip><Value control="Track8bAux3" param="sendlevel"/><Value control="Button16bAux3" param="sendMute"/></Strip>
+					<Strip><Value control="Track8bAux4" param="sendlevel"/><Value control="Button16bAux4" param="sendMute"/></Strip>
+					<Strip><Value control="Track8bAux5" param="sendlevel"/><Value control="Button16bAux5" param="sendMute"/></Strip>
+					<Strip><Value control="Track8bAux6" param="sendlevel"/><Value control="Button16bAux6" param="sendMute"/></Strip>
+					<Strip><Value control="Track8bAux7" param="sendlevel"/><Value control="Button16bAux7" param="sendMute"/></Strip>
+					<Strip><Value control="Track8bAux8" param="sendlevel"/><Value control="Button16bAux8" param="sendMute"/></Strip>
 				</Bank>
 			</Bank>
 			<Bank target="OutputBank">
@@ -562,79 +1272,303 @@
 					<Value control="Volume1Aux6" param="volume"/>
 					<Value control="Volume1bAux6" param="volume"/>
 				</Strip>
+				<Strip> 
+					<Value control="Volume1Aux7" param="volume"/>
+					<Value control="Volume1bAux7" param="volume"/>
+				</Strip>
+				<Strip> 
+					<Value control="Volume1Aux8" param="volume"/>
+					<Value control="Volume1bAux8" param="volume"/>
+				</Strip>
 			</Bank>
     		<Bank target="RemoteBank">
 				<Strip>
-					<Value control="Track1bAux1" param="volume"/>
-					<Value control="Button17Aux1" param="mute"/>
-					<Value control="Button17Aux2" param="mute"/>
-					<Value control="Button17Aux3" param="mute"/>
-					<Value control="Button17Aux4" param="mute"/>
-					<Value control="Button17Aux5" param="mute"/>
-					<Value control="Button17Aux6" param="mute"/>
+					<Value control="Track1cAux1" param="volume"/>
+					<Value control="Track1cAux2" param="volume"/>
+					<Value control="Track1cAux3" param="volume"/>
+					<Value control="Track1cAux4" param="volume"/>
+					<Value control="Track1cAux5" param="volume"/>
+					<Value control="Track1cAux6" param="volume"/>
+					<Value control="Track1cAux7" param="volume"/>
+					<Value control="Track1cAux8" param="volume"/>
+					<Value control="Button9cAux1" param="mute"/>
+					<Value control="Button9cAux2" param="mute"/>
+					<Value control="Button9cAux3" param="mute"/>
+					<Value control="Button9cAux4" param="mute"/>
+					<Value control="Button9cAux5" param="mute"/>
+					<Value control="Button9cAux6" param="mute"/>
+					<Value control="Button9cAux7" param="mute"/>
+					<Value control="Button9cAux8" param="mute"/>
 				</Strip>
 				<Strip>
-					<Value control="Track2bAux1" param="volume"/>
-					<Value control="Button18Aux1" param="mute"/>
-					<Value control="Button18Aux2" param="mute"/>
-					<Value control="Button18Aux3" param="mute"/>
-					<Value control="Button18Aux4" param="mute"/>
-					<Value control="Button18Aux5" param="mute"/>
-					<Value control="Button18Aux6" param="mute"/>
+					<Value control="Track2cAux1" param="volume"/>
+					<Value control="Track2cAux2" param="volume"/>
+					<Value control="Track2cAux3" param="volume"/>
+					<Value control="Track2cAux4" param="volume"/>
+					<Value control="Track2cAux5" param="volume"/>
+					<Value control="Track2cAux6" param="volume"/>
+					<Value control="Track2cAux7" param="volume"/>
+					<Value control="Track2cAux8" param="volume"/>
+					<Value control="Button10cAux1" param="mute"/>
+					<Value control="Button10cAux2" param="mute"/>
+					<Value control="Button10cAux3" param="mute"/>
+					<Value control="Button10cAux4" param="mute"/>
+					<Value control="Button10cAux5" param="mute"/>
+					<Value control="Button10cAux6" param="mute"/>
+					<Value control="Button10cAux7" param="mute"/>
+					<Value control="Button10cAux8" param="mute"/>
 				</Strip>
 				<Strip>
-					<Value control="Track3bAux1" param="volume"/>
-					<Value control="Button19Aux1" param="mute"/>
-					<Value control="Button19Aux2" param="mute"/>
-					<Value control="Button19Aux3" param="mute"/>
-					<Value control="Button19Aux4" param="mute"/>
-					<Value control="Button19Aux5" param="mute"/>
-					<Value control="Button19Aux6" param="mute"/>
+					<Value control="Track3cAux1" param="volume"/>
+					<Value control="Track3cAux2" param="volume"/>
+					<Value control="Track3cAux3" param="volume"/>
+					<Value control="Track3cAux4" param="volume"/>
+					<Value control="Track3cAux5" param="volume"/>
+					<Value control="Track3cAux6" param="volume"/>
+					<Value control="Track3cAux7" param="volume"/>
+					<Value control="Track3cAux8" param="volume"/>
+					<Value control="Button11cAux1" param="mute"/>
+					<Value control="Button11cAux2" param="mute"/>
+					<Value control="Button11cAux3" param="mute"/>
+					<Value control="Button11cAux4" param="mute"/>
+					<Value control="Button11cAux5" param="mute"/>
+					<Value control="Button11cAux6" param="mute"/>
+					<Value control="Button11cAux7" param="mute"/>
+					<Value control="Button11cAux8" param="mute"/>
 				</Strip>
 				<Strip>
-					<Value control="Track4bAux1" param="volume"/>
-					<Value control="Button20Aux1" param="mute"/>
-					<Value control="Button20Aux2" param="mute"/>
-					<Value control="Button20Aux3" param="mute"/>
-					<Value control="Button20Aux4" param="mute"/>
-					<Value control="Button20Aux5" param="mute"/>
-					<Value control="Button20Aux6" param="mute"/>
+					<Value control="Track4cAux1" param="volume"/>
+					<Value control="Track4cAux2" param="volume"/>
+					<Value control="Track4cAux3" param="volume"/>
+					<Value control="Track4cAux4" param="volume"/>
+					<Value control="Track4cAux5" param="volume"/>
+					<Value control="Track4cAux6" param="volume"/>
+					<Value control="Track4cAux7" param="volume"/>
+					<Value control="Track4cAux8" param="volume"/>
+					<Value control="Button12cAux1" param="mute"/>
+					<Value control="Button12cAux2" param="mute"/>
+					<Value control="Button12cAux3" param="mute"/>
+					<Value control="Button12cAux4" param="mute"/>
+					<Value control="Button12cAux5" param="mute"/>
+					<Value control="Button12cAux6" param="mute"/>
+					<Value control="Button12cAux7" param="mute"/>
+					<Value control="Button12cAux8" param="mute"/>
 				</Strip>
 				<Strip>
-					<Value control="Track5bAux1" param="volume"/>
-					<Value control="Button21Aux1" param="mute"/>
-					<Value control="Button21Aux2" param="mute"/>
-					<Value control="Button21Aux3" param="mute"/>
-					<Value control="Button21Aux4" param="mute"/>
-					<Value control="Button21Aux5" param="mute"/>
-					<Value control="Button21Aux6" param="mute"/>
+					<Value control="Track5cAux1" param="volume"/>
+					<Value control="Track5cAux2" param="volume"/>
+					<Value control="Track5cAux3" param="volume"/>
+					<Value control="Track5cAux4" param="volume"/>
+					<Value control="Track5cAux5" param="volume"/>
+					<Value control="Track5cAux6" param="volume"/>
+					<Value control="Track5cAux7" param="volume"/>
+					<Value control="Track5cAux8" param="volume"/>
+					<Value control="Button13cAux1" param="mute"/>
+					<Value control="Button13cAux2" param="mute"/>
+					<Value control="Button13cAux3" param="mute"/>
+					<Value control="Button13cAux4" param="mute"/>
+					<Value control="Button13cAux5" param="mute"/>
+					<Value control="Button13cAux6" param="mute"/>
+					<Value control="Button13cAux7" param="mute"/>
+					<Value control="Button13cAux8" param="mute"/>
 				</Strip>
 				<Strip>
-					<Value control="Track6bAux1" param="volume"/>
-					<Value control="Button22Aux1" param="mute"/>
-					<Value control="Button22Aux2" param="mute"/>
-					<Value control="Button22Aux3" param="mute"/>
-					<Value control="Button22Aux4" param="mute"/>
-					<Value control="Button22Aux5" param="mute"/>
-					<Value control="Button22Aux6" param="mute"/>
+					<Value control="Track6cAux1" param="volume"/>
+					<Value control="Track6cAux2" param="volume"/>
+					<Value control="Track6cAux3" param="volume"/>
+					<Value control="Track6cAux4" param="volume"/>
+					<Value control="Track6cAux5" param="volume"/>
+					<Value control="Track6cAux6" param="volume"/>
+					<Value control="Track6cAux7" param="volume"/>
+					<Value control="Track6cAux8" param="volume"/>
+					<Value control="Button14cAux1" param="mute"/>
+					<Value control="Button14cAux2" param="mute"/>
+					<Value control="Button14cAux3" param="mute"/>
+					<Value control="Button14cAux4" param="mute"/>
+					<Value control="Button14cAux5" param="mute"/>
+					<Value control="Button14cAux6" param="mute"/>
+					<Value control="Button14cAux7" param="mute"/>
+					<Value control="Button14cAux8" param="mute"/>
 				</Strip>
 				<Strip>
-					<Value control="Track7bAux1" param="volume"/>
-					<Value control="Button23Aux1" param="mute"/>
-					<Value control="Button23Aux2" param="mute"/>
-					<Value control="Button23Aux3" param="mute"/>
-					<Value control="Button23Aux4" param="mute"/>
-					<Value control="Button23Aux5" param="mute"/>
-					<Value control="Button23Aux6" param="mute"/>
+					<Value control="Track7cAux1" param="volume"/>
+					<Value control="Track7cAux2" param="volume"/>
+					<Value control="Track7cAux3" param="volume"/>
+					<Value control="Track7cAux4" param="volume"/>
+					<Value control="Track7cAux5" param="volume"/>
+					<Value control="Track7cAux6" param="volume"/>
+					<Value control="Track7cAux7" param="volume"/>
+					<Value control="Track7cAux8" param="volume"/>
+					<Value control="Button15cAux1" param="mute"/>
+					<Value control="Button15cAux2" param="mute"/>
+					<Value control="Button15cAux3" param="mute"/>
+					<Value control="Button15cAux4" param="mute"/>
+					<Value control="Button15cAux5" param="mute"/>
+					<Value control="Button15cAux6" param="mute"/>
+					<Value control="Button15cAux7" param="mute"/>
+					<Value control="Button15cAux8" param="mute"/>
 				</Strip>
 				<Strip>
-					<Value control="Track8bAux1" param="volume"/>
-					<Value control="Button24Aux1" param="mute"/>
-					<Value control="Button24Aux2" param="mute"/>
-					<Value control="Button24Aux3" param="mute"/>
-					<Value control="Button24Aux4" param="mute"/>
-					<Value control="Button24Aux5" param="mute"/>
-					<Value control="Button24Aux6" param="mute"/>
+					<Value control="Track8cAux1" param="volume"/>
+					<Value control="Track8cAux2" param="volume"/>
+					<Value control="Track8cAux3" param="volume"/>
+					<Value control="Track8cAux4" param="volume"/>
+					<Value control="Track8cAux5" param="volume"/>
+					<Value control="Track8cAux6" param="volume"/>
+					<Value control="Track8cAux7" param="volume"/>
+					<Value control="Track8cAux8" param="volume"/>
+					<Value control="Button16cAux1" param="mute"/>
+					<Value control="Button16cAux2" param="mute"/>
+					<Value control="Button16cAux3" param="mute"/>
+					<Value control="Button16cAux4" param="mute"/>
+					<Value control="Button16cAux5" param="mute"/>
+					<Value control="Button16cAux6" param="mute"/>
+					<Value control="Button16cAux7" param="mute"/>
+					<Value control="Button16cAux8" param="mute"/>
+				</Strip>
+				<Strip>
+					<Value control="Track1dAux1" param="volume"/>
+					<Value control="Track1dAux2" param="volume"/>
+					<Value control="Track1dAux3" param="volume"/>
+					<Value control="Track1dAux4" param="volume"/>
+					<Value control="Track1dAux5" param="volume"/>
+					<Value control="Track1dAux6" param="volume"/>
+					<Value control="Track1dAux7" param="volume"/>
+					<Value control="Track1dAux8" param="volume"/>
+					<Value control="Button9dAux1" param="mute"/>
+					<Value control="Button9dAux2" param="mute"/>
+					<Value control="Button9dAux3" param="mute"/>
+					<Value control="Button9dAux4" param="mute"/>
+					<Value control="Button9dAux5" param="mute"/>
+					<Value control="Button9dAux6" param="mute"/>
+					<Value control="Button9dAux7" param="mute"/>
+					<Value control="Button9dAux8" param="mute"/>
+				</Strip>
+				<Strip>
+					<Value control="Track2dAux1" param="volume"/>
+					<Value control="Track2dAux2" param="volume"/>
+					<Value control="Track2dAux3" param="volume"/>
+					<Value control="Track2dAux4" param="volume"/>
+					<Value control="Track2dAux5" param="volume"/>
+					<Value control="Track2dAux6" param="volume"/>
+					<Value control="Track2dAux7" param="volume"/>
+					<Value control="Track2dAux8" param="volume"/>
+					<Value control="Button10dAux1" param="mute"/>
+					<Value control="Button10dAux2" param="mute"/>
+					<Value control="Button10dAux3" param="mute"/>
+					<Value control="Button10dAux4" param="mute"/>
+					<Value control="Button10dAux5" param="mute"/>
+					<Value control="Button10dAux6" param="mute"/>
+					<Value control="Button10dAux7" param="mute"/>
+					<Value control="Button10dAux8" param="mute"/>
+				</Strip>
+				<Strip>
+					<Value control="Track3dAux1" param="volume"/>
+					<Value control="Track3dAux2" param="volume"/>
+					<Value control="Track3dAux3" param="volume"/>
+					<Value control="Track3dAux4" param="volume"/>
+					<Value control="Track3dAux5" param="volume"/>
+					<Value control="Track3dAux6" param="volume"/>
+					<Value control="Track3dAux7" param="volume"/>
+					<Value control="Track3dAux8" param="volume"/>
+					<Value control="Button11dAux1" param="mute"/>
+					<Value control="Button11dAux2" param="mute"/>
+					<Value control="Button11dAux3" param="mute"/>
+					<Value control="Button11dAux4" param="mute"/>
+					<Value control="Button11dAux5" param="mute"/>
+					<Value control="Button11dAux6" param="mute"/>
+					<Value control="Button11dAux7" param="mute"/>
+					<Value control="Button11dAux8" param="mute"/>
+				</Strip>
+				<Strip>
+					<Value control="Track4dAux1" param="volume"/>
+					<Value control="Track4dAux2" param="volume"/>
+					<Value control="Track4dAux3" param="volume"/>
+					<Value control="Track4dAux4" param="volume"/>
+					<Value control="Track4dAux5" param="volume"/>
+					<Value control="Track4dAux6" param="volume"/>
+					<Value control="Track4dAux7" param="volume"/>
+					<Value control="Track4dAux8" param="volume"/>
+					<Value control="Button12dAux1" param="mute"/>
+					<Value control="Button12dAux2" param="mute"/>
+					<Value control="Button12dAux3" param="mute"/>
+					<Value control="Button12dAux4" param="mute"/>
+					<Value control="Button12dAux5" param="mute"/>
+					<Value control="Button12dAux6" param="mute"/>
+					<Value control="Button12dAux7" param="mute"/>
+					<Value control="Button12dAux8" param="mute"/>
+				</Strip>
+				<Strip>
+					<Value control="Track5dAux1" param="volume"/>
+					<Value control="Track5dAux2" param="volume"/>
+					<Value control="Track5dAux3" param="volume"/>
+					<Value control="Track5dAux4" param="volume"/>
+					<Value control="Track5dAux5" param="volume"/>
+					<Value control="Track5dAux6" param="volume"/>
+					<Value control="Track5dAux7" param="volume"/>
+					<Value control="Track5dAux8" param="volume"/>
+					<Value control="Button13dAux1" param="mute"/>
+					<Value control="Button13dAux2" param="mute"/>
+					<Value control="Button13dAux3" param="mute"/>
+					<Value control="Button13dAux4" param="mute"/>
+					<Value control="Button13dAux5" param="mute"/>
+					<Value control="Button13dAux6" param="mute"/>
+					<Value control="Button13dAux7" param="mute"/>
+					<Value control="Button13dAux8" param="mute"/>
+				</Strip>
+				<Strip>
+					<Value control="Track6dAux1" param="volume"/>
+					<Value control="Track6dAux2" param="volume"/>
+					<Value control="Track6dAux3" param="volume"/>
+					<Value control="Track6dAux4" param="volume"/>
+					<Value control="Track6dAux5" param="volume"/>
+					<Value control="Track6dAux6" param="volume"/>
+					<Value control="Track6dAux7" param="volume"/>
+					<Value control="Track6dAux8" param="volume"/>
+					<Value control="Button14dAux1" param="mute"/>
+					<Value control="Button14dAux2" param="mute"/>
+					<Value control="Button14dAux3" param="mute"/>
+					<Value control="Button14dAux4" param="mute"/>
+					<Value control="Button14dAux5" param="mute"/>
+					<Value control="Button14dAux6" param="mute"/>
+					<Value control="Button14dAux7" param="mute"/>
+					<Value control="Button14dAux8" param="mute"/>
+				</Strip>
+				<Strip>
+					<Value control="Track7dAux1" param="volume"/>
+					<Value control="Track7dAux2" param="volume"/>
+					<Value control="Track7dAux3" param="volume"/>
+					<Value control="Track7dAux4" param="volume"/>
+					<Value control="Track7dAux5" param="volume"/>
+					<Value control="Track7dAux6" param="volume"/>
+					<Value control="Track7dAux7" param="volume"/>
+					<Value control="Track7dAux8" param="volume"/>
+					<Value control="Button15dAux1" param="mute"/>
+					<Value control="Button15dAux2" param="mute"/>
+					<Value control="Button15dAux3" param="mute"/>
+					<Value control="Button15dAux4" param="mute"/>
+					<Value control="Button15dAux5" param="mute"/>
+					<Value control="Button15dAux6" param="mute"/>
+					<Value control="Button15dAux7" param="mute"/>
+					<Value control="Button15dAux8" param="mute"/>
+				</Strip>
+				<Strip>
+					<Value control="Track8dAux1" param="volume"/>
+					<Value control="Track8dAux2" param="volume"/>
+					<Value control="Track8dAux3" param="volume"/>
+					<Value control="Track8dAux4" param="volume"/>
+					<Value control="Track8dAux5" param="volume"/>
+					<Value control="Track8dAux6" param="volume"/>
+					<Value control="Track8dAux7" param="volume"/>
+					<Value control="Track8dAux8" param="volume"/>
+					<Value control="Button16dAux1" param="mute"/>
+					<Value control="Button16dAux2" param="mute"/>
+					<Value control="Button16dAux3" param="mute"/>
+					<Value control="Button16dAux4" param="mute"/>
+					<Value control="Button16dAux5" param="mute"/>
+					<Value control="Button16dAux6" param="mute"/>
+					<Value control="Button16dAux7" param="mute"/>
+					<Value control="Button16dAux8" param="mute"/>
 				</Strip>
 			</Bank>
 
